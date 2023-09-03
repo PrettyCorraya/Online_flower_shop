@@ -1,0 +1,118 @@
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+#header{
+    background-color: #E554731A;
+    display: flex;
+    padding: 50px 150px 0px 150px;
+}
+
+.header_text h1{
+    color: #272727;
+    font-size: 70px;
+    font-weight: 700;
+}
+.header_text p{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 32px;
+}
+
+.header_text button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #E55473;
+}
+
+.btn_primary{
+    border-radius: 8px;
+background: #E55473;
+border: 0;
+padding: 20px 43px;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+}
+#main{
+    padding: 100px 150px  ;
+}
+
+.feature_text h3{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+}
+
+.feature_text p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+
+.feature_image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.feature_image .pink img{
+    background-color: #A7216226;
+    height: 450px;
+    width: 380px;
+}
+    
+
+.feature_image .red img{
+    background-color: #0597A026;
+    height: 450px;
+    width: 380px;
+}
+
+.feature_image .yellow img{
+    background-color: #477D1126;
+    height: 450px;
+    width: 380px;
+}
+.feature_image h3{
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+}
+
+#deal{
+    padding: 100px 150px  ;
+    background-color: #E554730D;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.deal_text {
+    width: 70%;
+}
+.deal_text h3{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+
+.deal_text span{
+    color: #E55473;
+font-size: 40px;
+font-weight: 800;
+}
+
+.deal_text p{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 32px;
+}
