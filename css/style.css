@@ -88,7 +88,7 @@ text-decoration-line: underline;
 }
 
 #deal{
-    padding: 100px 150px  ;
+    padding: 100px 150px;
     background-color: #E554730D;
     display: flex;
     align-items: center;
@@ -115,4 +115,41 @@ font-weight: 800;
 font-size: 18px;
 font-weight: 400;
 margin-bottom: 32px;
+}
+
+#instagram{
+    padding: 80px 150px;
+}
+
+.instagram_text h3{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 0;
+}
+
+.instagram_text p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.instagram_image{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.first_back img{
+    margin-right: 10px;
+}
+.second_back img{
+    margin-right: 10px;
+}
+.third_back img{
+    margin-right: 10px;
+}
+.forth_back img{
+    margin-right: 10px;
 }
