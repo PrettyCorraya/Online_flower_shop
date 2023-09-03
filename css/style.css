@@ -1,93 +1,138 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-#header{
+.navbar {
+    background-color: black;
+    padding: 20px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: grey;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.flower {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.logo {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+#header {
     background-color: #E554731A;
     display: flex;
     padding: 50px 150px 0px 150px;
 }
 
-.header_text h1{
+.header_text h1 {
     color: #272727;
     font-size: 70px;
     font-weight: 700;
 }
-.header_text p{
+
+.header_text p {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
 }
 
-.btn_primary:hover{
+.btn_primary:hover {
     background-color: white;
     color: black;
     border: 1px solid #E55473;
 }
 
-.btn_primary{
+.btn_primary {
     border-radius: 8px;
-background: #E55473;
-border: 0;
-padding: 20px 43px;
-color: #FFF;
-font-size: 20px;
-font-weight: 700;
-}
-#main{
-    padding: 100px 150px  ;
+    background: #E55473;
+    border: 0;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.feature_text h3{
+#main {
+    padding: 100px 150px;
+}
+
+.feature_text h3 {
     color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
 }
 
-.feature_text p{
+.feature_text p {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
-.feature_image{
+.feature_image {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
 }
 
-.feature_image .pink img{
+.feature_image .pink img {
     background-color: #A7216226;
     height: 450px;
     width: 380px;
 }
-    
 
-.feature_image .red img{
+
+.feature_image .red img {
     background-color: #0597A026;
     height: 450px;
     width: 380px;
 }
 
-.feature_image .yellow img{
+.feature_image .yellow img {
     background-color: #477D1126;
     height: 450px;
     width: 380px;
 }
-.feature_image h3{
+
+.feature_image h3 {
     color: #272727;
-text-align: center;
-font-size: 24px;
-font-weight: 700;
-text-decoration-line: underline;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
 
-#deal{
+#deal {
     padding: 100px 150px;
     background-color: #E554730D;
     display: flex;
@@ -98,77 +143,31 @@ text-decoration-line: underline;
 .deal_text {
     width: 70%;
 }
-.deal_text h3{
+
+.deal_text h3 {
     color: #272727;
-font-size: 40px;
-font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
 }
 
-.deal_text span{
+.deal_text span {
     color: #E55473;
-font-size: 40px;
-font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
 }
 
-.deal_text p{
+.deal_text p {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
 }
 
-#instagram{
+#instagram {
     padding: 80px 150px;
 }
 
-.instagram_text h3{
-    color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 700;
-margin-bottom: 0;
-}
-
-.instagram_text p{
-    color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-}
-.instagram_image{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-
-.first_back img{
-    margin-right: 10px;
-}
-.second_back img{
-    margin-right: 10px;
-}
-.third_back img{
-    margin-right: 10px;
-}
-.forth_back img{
-    margin-right: 10px;
-}
-
-#subscribe{
-    padding: 0 150px;
-}
-.subscribe_image{
-    background: url(../images/Rectangle\ 9.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 1230px;
-    height: 400px;  
-    padding-top: 80px;
-}
-
-
-.subscribe_image h3{
+.instagram_text h3 {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -176,24 +175,99 @@ font-weight: 400;
     margin-bottom: 0;
 }
 
-.subscribe_image p{
+.instagram_text p {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.instagram_image {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.first_back img {
+    margin-right: 10px;
+}
+
+.second_back img {
+    margin-right: 10px;
+}
+
+.third_back img {
+    margin-right: 10px;
+}
+
+.forth_back img {
+    margin-right: 10px;
+}
+
+#subscribe {
+    padding: 0 150px 100px 150px;
+}
+
+.subscribe_image {
+    background: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1230px;
+    height: 400px;
+    padding-top: 80px;
+}
+
+
+.subscribe_image h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.subscribe_image p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 
 }
 
 
-.subscribe_image input{
+.subscribe_image input {
     border-radius: 8px;
     background: #FFF;
     padding: 21px 450px 21px 22px;
     border: 0;
-    margin-left:200px;
+    margin-left: 200px;
 }
-.subscribe_image button{
+
+.subscribe_image button {
     align-items: center;
     margin-left: 10px;
     margin-top: 32px;
+}
+
+.footer_part {
+    padding: 80px 200px;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+
+.footer_part p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.footer_part h4 {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
